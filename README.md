@@ -1,6 +1,6 @@
 # Installation
 
-Go to releases, and download the latest tarball. The script requires some user inputs to configure certain properties, but is otherwise self-contained
+Run the command below to automatically download and run the script
 
 ```
 wget https://github.com/alexk101/dev-shell-setup/releases/download/v1.0.0/install.tar.gz && \
@@ -11,6 +11,8 @@ chmod +x bootstrap.sh && \
 cd .. && \
 rm -rf install
 ```
+
+Otherwise, if you know what you are doing, simply run `bootstrap.sh`. All other files in the repo are configuration and are referenced by the script.
 
 # Testing
 

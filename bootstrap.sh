@@ -4,7 +4,7 @@
 sudo apt update
 sudo apt upgrade
 # install zsh and other prequistes
-sudo apt install -y zsh git curl wget
+sudo apt install -y zsh git curl wget build-essential
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 # create config directory if it doesn't exist
