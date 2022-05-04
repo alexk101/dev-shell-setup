@@ -23,9 +23,9 @@ cp ./zshrc.config $HOME/.zshrc
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ./miniconda.sh
 chmod +x ./miniconda.sh
 ./miniconda.sh
-chsh -s /bin/zsh
-exec zsh
 wget https://github.com/neovim/neovim/releases/download/v0.7.0/nvim-linux64.deb
 sudo dpkg -i nvim-linux64.deb
 rm nvim-linux64.deb
 zsh <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+chsh -s /bin/zsh
+exec zsh
